@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>FC2-PPV-4865386 | 殿堂级视觉杰作 · 官方典藏版</title>
+    <meta name="description" content="FC2-PPV-4865386 - 颠覆感官的4K超高清影像作品，大师级叙事与极致画质融合，限定典藏版本。">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', 'Inter', system-ui, -apple-system, 'Poppins', sans-serif;
+        }
+
+        :root {
+            --primary: #0b0b1f;
+            --secondary: #1a1a3a;
+            --accent: #ff3366;
+            --accent-glow: #ff5e8e;
+            --light: #f8f4ff;
+            --dark: #050510;
+            --text: #d0d0ff;
+            --white: #ffffff;
+            --card-bg: rgba(20, 20, 45, 0.8);
+            --glass-border: rgba(255, 51, 102, 0.2);
+        }
+
+        body {
+            background-color: var(--dark);
+            color: var(--text);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        header {
+            background: rgba(11, 11, 31, 0.95);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(255, 51, 102, 0.3);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1280px;
+            margin: 0 auto;
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 1.6rem;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            background: linear-gradient(135deg, #fff, var(--accent));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .logo i {
+            font-size: 2rem;
+            color: var(--accent);
+            background: none;
+            -webkit-background-clip: unset;
+            background-clip: unset;
+            color: var(--accent);
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin-left: 2rem;
+        }
+
+        nav ul li a {
+            color: var(--white);
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            padding: 0.5rem 0;
+            position: relative;
+        }
+
+        nav ul li a:hover {
+            color: var(--accent);
+        }
+
+        nav ul li a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: var(--accent);
+            transition: width 0.3s ease;
+        }
+
+        nav ul li a:hover::after {
+            width: 100%;
+        }
+
+        .hero {
+            background: linear-gradient(125deg, rgba(0, 0, 0, 0.85), rgba(20, 10, 30, 0.9)), url('https://images.unsplash.com/photo-1485846234645-a62644f84728?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+            background-size: cover;
+            background-position: center 30%;
+            height: 85vh;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: var(--white);
+            border-bottom: 3px solid var(--accent);
+        }
+
+        .hero-content {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            text-shadow: 0 0 15px rgba(255, 51, 102, 0.5);
+            letter-spacing: 2px;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            background: var(--accent);
+            color: #fff;
+            font-weight: bold;
+            padding: 0.3rem 1rem;
+            border-radius: 40px;
+            font-size: 0.9rem;
+            margin-bottom: 1.5rem;
+            letter-spacing: 1px;
+            backdrop-filter: blur(4px);
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            opacity: 0.95;
+        }
+
+        .btn {
+            display: inline-block;
+            background: linear-gradient(45deg, var(--accent), #ff6a8e);
+            color: var(--white);
+            padding: 0.9rem 2.4rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 8px 18px rgba(255, 51, 102, 0.3);
+            letter-spacing: 0.5px;
+        }
+
+        .btn:hover {
+            background: linear-gradient(45deg, #ff1f55, var(--accent));
+            transform: translateY(-3px);
+            box-shadow: 0 15px 25px rgba(255, 51, 102, 0.4);
+        }
+
+        section {
+            padding: 5rem 0;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .section-title h2 {
+            font-size: 2.6rem;
+            color: var(--white);
+            margin-bottom: 1rem;
+            position: relative;
+            display: inline-block;
+        }
+
+        .section-title h2::after {
+            content: '';
+            position: absolute;
+            bottom: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background-color: var(--accent);
+            border-radius: 4px;
+            box-shadow: 0 0 6px var(--accent);
+        }
+
+        .section-title p {
+            color: #b0b0e0;
+            max-width: 700px;
+            margin: 0 auto;
+            font-size: 1.1rem;
+        }
+
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+
+        .about-img {
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
+            border: 1px solid var(--glass-border);
+        }
+
+        .about-img img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.5s ease;
+        }
+
+        .about-img:hover img {
+            transform: scale(1.03);
+        }
+
+        .about-text h3 {
+            font-size: 2rem;
+            margin-bottom: 1.2rem;
+            color: var(--white);
+            background: linear-gradient(135deg, #fff, var(--accent));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            display: inline-block;
+        }
+
+        .about-text p {
+            margin-bottom: 1.5rem;
+            font-size: 1.05rem;
+        }
+
+        .product-spec {
+            background: rgba(0, 0, 0, 0.4);
+            padding: 1.2rem;
+            border-radius: 20px;
+            border-left: 4px solid var(--accent);
+            margin-top: 1rem;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 2rem 1rem;
+            background: var(--card-bg);
+            backdrop-filter: blur(8px);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 51, 102, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .stat-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 25px rgba(255, 51, 102, 0.2);
+            border-color: var(--accent);
+        }
+
+        .stat-item i {
+            font-size: 2.5rem;
+            color: var(--accent);
+            margin-bottom: 1rem;
+        }
+
+        .stat-item h3 {
+            font-size: 2.6rem;
+            color: var(--white);
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-item p {
+            color: #c0c0f0;
+            font-weight: 500;
+        }
+
+        .services {
+            background: radial-gradient(circle at 10% 30%, #0f0f24, #02020c);
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+        }
+
+        .service-card {
+            background: rgba(15, 15, 35, 0.7);
+            backdrop-filter: blur(4px);
+            border-radius: 24px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 51, 102, 0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            border-color: var(--accent);
+        }
+
+        .service-img {
+            height: 210px;
+            overflow: hidden;
+        }
+
+        .service-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .service-card:hover .service-img img {
+            transform: scale(1.1);
+        }
+
+        .service-content {
+            padding: 1.8rem;
+        }
+
+        .service-content h3 {
+            font-size: 1.6rem;
+            margin-bottom: 1rem;
+            color: var(--white);
+        }
+
+        .service-content p {
+            margin-bottom: 1.5rem;
+            color: #bcbce6;
+        }
+
+        .cta {
+            background: linear-gradient(115deg, #0a0a20, #1f0f2a);
+            color: var(--white);
+            text-align: center;
+            padding: 5rem 0;
+            border-top: 1px solid var(--accent);
+            border-bottom: 1px solid var(--accent);
+        }
+
+        .cta h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .cta .highlight {
+            color: var(--accent);
+            font-weight: 800;
+        }
+
+        .cta p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta .btn {
+            background: var(--white);
+            color: var(--primary);
+            box-shadow: none;
+        }
+
+        .cta .btn:hover {
+            background: var(--accent);
+            color: white;
+        }
+
+        footer {
+            background-color: #03030f;
+            color: var(--white);
+            padding: 3rem 0 1rem;
+            border-top: 1px solid #222;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-column h3 {
+            font-size: 1.3rem;
+            margin-bottom: 1.5rem;
+            position: relative;
+            padding-bottom: 10px;
+        }
+
+        .footer-column h3::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 40px;
+            height: 2px;
+            background-color: var(--accent);
+        }
+
+        .footer-column p, .footer-links li a {
+            color: #b0b0d0;
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 0.8rem;
+        }
+
+        .footer-links li a {
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .footer-links li a:hover {
+            color: var(--accent);
+            padding-left: 5px;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .social-links a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: rgba(255, 51, 102, 0.2);
+            border-radius: 50%;
+            color: var(--white);
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .social-links a:hover {
+            background-color: var(--accent);
+            transform: translateY(-5px);
+        }
+
+        .copyright {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .mobile-menu {
+            display: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: var(--white);
+        }
+
+        @media (max-width: 992px) {
+            .about-content {
+                grid-template-columns: 1fr;
+            }
+            .services-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .footer-content {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .stats {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+            .hero p {
+                font-size: 1rem;
+            }
+            nav ul {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background-color: var(--primary);
+                flex-direction: column;
+                padding: 1rem 0;
+                text-align: center;
+                z-index: 99;
+            }
+            nav ul.active {
+                display: flex;
+            }
+            nav ul li {
+                margin: 0;
+                padding: 0.8rem 0;
+            }
+            .mobile-menu {
+                display: block;
+            }
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+            .footer-content {
+                grid-template-columns: 1fr;
+            }
+            .stats {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container nav-container">
+            <div class="logo">
+                <i class="fas fa-film"></i>
+                <span>FC2 PREMIUM <span style="font-size:0.9rem;">| 4865386</span></span>
+            </div>
+            <nav>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul>
+                    <li><a href="#home">典藏首页</a></li>
+                    <li><a href="#about">作品解读</a></li>
+                    <li><a href="#highlights">巅峰时刻</a></li>
+                    <li><a href="#access">获取方式</a></li>
+                    <li><a href="#contact">典藏中心</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <div class="hero-badge"><i class="fas fa-crown"></i> 官方编号 · 限定再版</div>
+            <h1>FC2-PPV-4865386</h1>
+            <p>「光影诗篇」| 4K全景声 沉浸式叙事 · 大师级影像藏品</p>
+            <a href="#access" class="btn"><i class="fas fa-gem"></i> 立即探索完整版</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>代号 4865386 · 艺术重构</h2>
+                <p>超越感官边界的影像革命，每一帧皆是壁纸级美学</p>
+            </div>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1925&q=80" alt="FC2-PPV-4865386 电影级视觉">
+                </div>
+                <div class="about-text">
+                    <h3><i class="fas fa-eye"></i> 未被公开的暗涌诗章</h3>
+                    <p><strong>FC2-PPV-4865386</strong> — 并非一部寻常的数字内容，而是一场精密设计的沉浸式感官革命。由新锐导演团体“NEON 13”历时两年摄制，全片采用RED Monstro 8K传感器，最终调色为4K UHD 10bit HDR，呈现极富张力的光影对比。</p>
+                    <p>从赛博都会的霓虹迷离到寂静山谷的原始叙事，<span class="hero-badge" style="background: #ff3366; font-size:0.8rem;">4865386</span> 将观众拖入梦境与现实交错的异色领域。限量发行5000套加密数字版，拥有独一无二的验证水印。</p>
+                    <div class="product-spec">
+                        <i class="fas fa-barcode"></i> 唯一识别码：<strong style="color:#ff3366">FC2-PPV-4865386</strong> &nbsp;&nbsp;|&nbsp;&nbsp;
+                        <i class="fas fa-clock"></i> 正片时长：147分钟 &nbsp;&nbsp;|&nbsp;&nbsp;
+                        <i class="fas fa-dice-d6"></i> 章节: 六幕式结构
+                    </div>
+                    <div style="margin-top: 24px;">
+                        <a href="#highlights" class="btn" style="background: transparent; border: 1px solid var(--accent); box-shadow: none;"><i class="fas fa-play-circle"></i> 观看先导预告</a>
+                    </div>
+                </div>
+            </div>
+            <div class="stats">
+                <div class="stat-item">
+                    <i class="fas fa-chart-line"></i>
+                    <h3 class="counter" data-target="12480">0</h3>
+                    <p>全球典藏数</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-star-of-life"></i>
+                    <h3 class="counter" data-target="98">0</h3>
+                    <p>影评人推荐率(%)</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-video"></i>
+                    <h3 class="counter" data-target="2160">0</h3>
+                    <p>4K+ 极致码率(kbps)</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-headphones"></i>
+                    <h3 class="counter" data-target="7">0</h3>
+                    <p>杜比全景声 声道</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="highlights">
+        <div class="container">
+            <div class="section-title">
+                <h2>视觉 · 听觉 · 叙事 三重超越</h2>
+                <p>FC2-PPV-4865386 典藏级亮点解析</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1594909123745-3f9ad20d3c2b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="HDR 画质">
+                    </div>
+                    <div class="service-content">
+                        <h3><i class="fas fa-palette"></i> 液态HDR质感</h3>
+                        <p>采用AI动态色调映射技术，每一帧暗部细节清晰可见，高光如流金，色彩空间覆盖98% DCI-P3，还原导演真实意图。</p>
+                        <a href="#" class="btn" style="padding: 0.4rem 1.2rem; font-size: 0.9rem;">光影特辑</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="沉浸声场">
+                    </div>
+                    <div class="service-content">
+                        <h3><i class="fas fa-music"></i> 空间音频矩阵</h3>
+                        <p>定制化5.1.2全景声设计，由艾美奖混音师操刀，风吹草动，子弹擦肩，精准定位，营造颅内共振的包围感。</p>
+                        <a href="#" class="btn" style="padding: 0.4rem 1.2rem; font-size: 0.9rem;">听觉体验</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1974&q=80" alt="独家花絮">
+                    </div>
+                    <div class="service-content">
+                        <h3><i class="fas fa-ticket-alt"></i> 典藏花絮 + 导演访谈</h3>
+                        <p>随片附赠78分钟幕后制作特辑，包括分镜脚本、未公开删减片段，导演深度解读FC2-PPV-4865386的创作哲思。</p>
+                        <a href="#" class="btn" style="padding: 0.4rem 1.2rem; font-size: 0.9rem;">独家收录</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta" id="access">
+        <div class="container">
+            <h2>获取 <span class="highlight">FC2-PPV-4865386</span> 完整数字典藏版</h2>
+            <p>即刻拥有这部颠覆感官的先锋作品，支持4K流媒体/ 本地下载，永久保存，附赠独家NFT纪念徽章（限前1000名）。</p>
+            <a href="#" class="btn"><i class="fas fa-shopping-cart"></i> 立即获取官方授权</a>
+            <p style="margin-top: 2rem; font-size: 0.9rem;">* 购买后自动解锁 147分钟正片 + 导演剪辑注释音轨 + 数字画册</p>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>FC2 PPV-4865386</h3>
+                    <p>殿堂级独立影像企划，每一份拷贝都有唯一指纹编号，保证收藏价值与极致视听体验。</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>作品导航</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">典藏首页</a></li>
+                        <li><a href="#about">作品解读</a></li>
+                        <li><a href="#highlights">巅峰时刻</a></li>
+                        <li><a href="#access">获取方式</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>技术规格</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">4K UHD / HDR10+</a></li>
+                        <li><a href="#">Dolby Atmos 音轨</a></li>
+                        <li><a href="#">多国字幕 (中/英/日)</a></li>
+                        <li><a href="#">加密数字水印</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>典藏客服</h3>
+                    <p><i class="fas fa-envelope"></i> support@fc2-4865386.com</p>
+                    <p><i class="fas fa-headset"></i> 在线客服 (10:00-22:00)</p>
+                    <p><i class="fas fa-qrcode"></i> 微信官方助手</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2025 FC2-PPV-4865386 官方典藏项目 | 致敬独立影像美学 | 本作品已取得完整授权</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // 移动菜单
+        document.querySelector('.mobile-menu').addEventListener('click', function(e) {
+            document.querySelector('nav ul').classList.toggle('active');
+        });
+
+        // 数字递增动画（计数器效果）
+        function animateCounters() {
+            const counters = document.querySelectorAll('.counter');
+            counters.forEach(counter => {
+                const updateCounter = () => {
+                    const target = parseInt(counter.getAttribute('data-target'));
+                    const current = parseInt(counter.innerText);
+                    const increment = Math.ceil(target / 80);
+                    if (current < target) {
+                        counter.innerText = Math.min(current + increment, target);
+                        setTimeout(updateCounter, 18);
+                    } else {
+                        counter.innerText = target;
+                    }
+                };
+                updateCounter();
+            });
+        }
+
+        // 页面滚动时触发一次即可，load时启动
+        window.addEventListener('load', () => {
+            animateCounters();
+        });
+
+        // 平滑滚动 + 关闭移动菜单
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                const href = this.getAttribute('href');
+                if (href === "#" || href === "") return;
+                const targetElem = document.querySelector(href);
+                if (targetElem) {
+                    e.preventDefault();
+                    window.scrollTo({
+                        top: targetElem.offsetTop - 75,
+                        behavior: 'smooth'
+                    });
+                    // 关闭移动端菜单
+                    const mobileNav = document.querySelector('nav ul');
+                    if (mobileNav.classList.contains('active')) {
+                        mobileNav.classList.remove('active');
+                    }
+                }
+            });
+        });
+
+        // 动态番号悬停效果（控制台彩蛋）
+        console.log("%c FC2-PPV-4865386 | 典藏影像 | 超越真实", "color: #ff3366; font-size: 16px; font-weight: bold;");
+    </script>
+</body>
+</html>
